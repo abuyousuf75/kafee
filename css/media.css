@@ -1,0 +1,242 @@
+
+/*=======Responsive Css Bellow`========*/
+
+@media(max-width:575.98px){
+    .navbar-toggler:focus{
+        box-shadow:none ;
+    }
+    .fas.fa-bars {
+        color: #fff;
+        font-size: 18px;
+    }
+    .navbar-brand {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .nav-new .navbar-brand {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        line-height: 30px;
+        background:#222;
+        text-align: center;
+    }
+    .nav-item {
+        margin: 0px -20px;
+    }
+    .banner-bg-images{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .banner-text h3 {
+        font-size: 37px;
+        font-weight: 400;
+        padding-top: 50px;
+    }
+    .banner-text h4 {
+        font-size: 91px;
+    }
+    .banner-text p {
+        margin-top: 22px;
+        line-height: 26px;
+        padding-left: 13px;
+    }
+    .banner-btn {
+        text-align: center;
+    }
+    .banner-btn a {
+        padding: 14px 12px;
+        color: #da7e29;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #about {
+        padding-top: 60px;
+    }
+    .common-head h4 {
+        font-size: 40px;
+    }
+    .common-head h4::before {
+        visibility: hidden;
+    }
+    .common-head h4::after {
+       visibility: hidden;
+    }
+    .common-head p {
+       padding: 0px;
+       padding-bottom: 100px;
+    }
+    .flavour i {
+        top: -87px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hyginic {
+        margin-top: 0px;
+    }
+    .hyginic i{
+        top: -87px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hyginic h3 {
+        text-align: center;
+    }
+    .hyginic p {
+        text-align: center;
+        
+    }
+    .discount {
+        margin-top: 120px;
+    }
+    .discount i{
+        top: -87px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .discount h3 {
+        text-align: center;
+    }
+    .discount p {
+       
+        text-align: center;
+       
+    }
+    .time{
+        margin-top: 120px;
+    }
+    .time i{
+        top: -87px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .time h3{
+        text-align: center;
+    }
+    .time p{
+        text-align: center;
+    }
+    .Behved {
+        margin-top: 120px;
+      
+    }
+    .Behved i{
+        top: -87px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .Behved h3{
+       text-align: center;
+      
+    }
+    .Behved p {
+        text-align: center;
+      
+    }
+
+    #C-part {
+        margin-top: 100px;
+    }
+    #menu {
+       margin-top: 750px;
+    }
+    .menu-iteam-main {
+        padding-top: 0px;
+        padding-bottom: 55px;
+    }
+    .menu-text h6 {
+        margin-right: 80px;
+        padding: 0px 0px;
+       
+    }
+    .menu-iteam-main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #menu .common-head p {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .center-cofee {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #gallery {
+        padding-top: 50px;
+    }
+    #gallery .common-head p {
+        padding-bottom: 50px;
+    }
+    #chef {
+        padding-top: 50px;
+    }
+    #chef .common-head p {
+       
+        padding-bottom: 0px;
+    }
+    .chef-info p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #353535;
+        line-height: 30px;
+        padding-right: 0px;
+    }
+    .chef-info {
+        margin-top: 0px;
+    }
+    #testoM {
+        padding-top: 70px;
+    }
+    #testoM .common-head p {
+        
+        padding-bottom: 50px;
+    }
+    .testo-text p {
+       
+        padding: 0px 24px;
+       
+    }
+    .testo-img img {
+        
+        margin-left: 363px;
+    }
+    .testomonial-bg {
+        height: 500px;
+    }
+    .testobtn-1 {
+       
+        left: 62%;
+      
+    }
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #blog .common-head p {
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+    .send {
+        margin-bottom: 26px;
+    }
+    .send i {
+      
+        margin-left: 0px;
+    }
+    .news-icon h4 {
+        font-size: 30px;
+    }
+    .instra-img {
+        text-align: center;
+    }
+    .back-top-btn i {
+        right: 10px;
+    }
+    #footer_part {
+       
+        padding-bottom: 30px;
+       
+    }
+   
+}
