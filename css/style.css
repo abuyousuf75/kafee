@@ -50,7 +50,7 @@ h1,h2,h3,h5,h6,a{
 .navbar-light .navbar-nav .nav-link:hover {
     color:#da7e29;
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .nav-link.active {
     color:#da7e29!important;
 }
 
