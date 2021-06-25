@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
 
 <!--===========Header Part Goes Here=================-->
-<nav class="navbar navbar-expand-lg navbar-light  ">
+<nav class="navbar navbar-expand-md navbar-light" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="logo">
@@ -35,7 +35,7 @@
             <a class="nav-link"  href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="#menu">Today's Menu</a>
+            <a class="nav-link"  href="#menu"> Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link"  href="#gallery">Gallery</a>
@@ -128,7 +128,7 @@
 <section id="about" >
   <div class="container">
     <div class="row wow fadeInUpBig" >
-      <div class="col-lg-6 m-auto">
+      <div class="col-lg-6 m-auto col-md-12">
         <div class="common-head text-center">
           <h4>About Kaffee</h4>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standar.</p>
@@ -141,24 +141,24 @@
       </div>
     </div>
     <div class="row wow fadeInUpBig">
-      <div class="col-lg-3">
-        <div class="hyginic">
+      <div class="col-lg-3 col-md-12 mm ">
+        <div class="hyginic ">
           <h3>Totally Hygienic</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
           <i class="flaticon-hygienic"></i>
         </div>
-        <div class="discount">
+        <div class="discount ">
           <h3>Great Discount</h3>
           <p>Lorem Ipsum is simply dummyxe printing and typesettidustrLorem Ipsum has been the indust.</p>
           <i class="flaticon-discount"></i>
         </div>
       </div>
-      <div class="col-lg-6 d-none d-md-block">
+      <div class="col-lg-6 d-none d-lg-block">
         <div class="cofee-center">
           <img src="images/kaffee.png" alt="kafee" class="img-fluid w-100">
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-12 mm">
         <div class="time">
           <h3>24x7 Open Service</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
@@ -178,31 +178,31 @@
   <div class="c-overlay">
     <div class="container">
       <div class="row wow fadeInUpBig">
-        <div class="col-lg">
+        <div class="col-lg col-md-4">
           <div class="c-iteam text-center">
             <h3 class="counter">2000</h3>
             <h5>Customers</h5>
           </div>
         </div>
-        <div class="col-lg">
+        <div class="col-lg col-md-4">
           <div class="c-iteam text-center">
             <h3 class="counter">1800</h3>
             <h5>Happy Clients</h5>
           </div>
         </div>
-        <div class="col-lg">
+        <div class="col-lg col-md-4">
           <div class="c-iteam text-center">
             <h3 class="counter">1600</h3>
             <h5>Reviewed Clients</h5>
           </div>
         </div>
-        <div class="col-lg">
+        <div class="col-lg col-md-4 offset-md-2 offset-lg-0">
           <div class="c-iteam text-center">
             <h3 class="counter">1200</h3>
             <h5>Cup of Coffee</h5>
           </div>
         </div>
-        <div class="col-lg">
+        <div class="col-lg col-md-4">
           <div class="c-iteam text-center">
             <h3 class="counter">1000 </h3>
             <h5>Milestone Clients</h5>
@@ -816,7 +816,7 @@
 
     <!--Newslater part Goes Bellow-->
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-12">
         <div class="news-main">
           <div class="news-icon ">
             <i class="fas fa-paper-plane"></i>
@@ -825,21 +825,21 @@
           <p>The latest from Kaffee, Write your inbox</p>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-5">
         <div class="name-box">
           <form>
             <input type="text"  placeholder="Your Name">
           </form>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-5">
         <div class="email-box">
           <form>
             <input type="email"  placeholder="Your Email">
           </form>
         </div>
       </div>
-      <div class="col-lg-1">
+      <div class="col-lg-1 col-md-2">
         <div class="send">
           <i class="fas fa-paper-plane"></i>
         </div>
@@ -850,7 +850,7 @@
     <!--=======Contact And More Info Bellow==========-->
     <div class="row">
       <!--======Adress==========-->
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6">
         <div class="contact-main">
           <div class="contact-info">
             <h3>CONTACT US</h3>
@@ -879,7 +879,7 @@
       </div>
 
       <!--========Twitter=========-->
-     <div class="col-lg-3">
+     <div class="col-lg-3 col-md-6">
       <div class="contact-main">
         <div class="twitter-text">
           <h3>TWETTER FEED</h3>
@@ -896,7 +896,7 @@
      </div>
 
      <!--=========Opening Hours============-->
-     <div class="col-lg-3">
+     <div class="col-lg-3 col-md-6">
        <div class="contact-main">
          <div class="opaning-text">
            <h3>OPENING HOURS</h3>
@@ -908,7 +908,7 @@
           <p>Saturday: 08.00 A.M - 02.00 P.M</p>
         </div>
         <div class="day">
-          <p>Sunday: Closed/p>
+          <p>Sunday: Closed</p>
         </div>
         <div class="day">
           <p>Holidays: Closed</p>
@@ -920,7 +920,7 @@
      </div>
 
      <!--==========Instragram Photos===========-->
-     <div class="col-lg-3">
+     <div class="col-lg-3 col-md-6">
        <div class="contact-main">
          <div class="instra-text">
           <h3>INSTAGRAM PHOTOS</h3>

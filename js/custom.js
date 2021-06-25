@@ -8,7 +8,7 @@ $('.venobox').venobox();
 $('.banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed:1200,
     arrows:false,
     speed:1200,
@@ -20,7 +20,7 @@ $('.banner-slider').slick({
   $('.gallery-slick').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     arrows: true,
     autoplaySpeed: 2000,
     prevArrow: '.galbtn1',
@@ -36,7 +36,7 @@ $('.banner-slider').slick({
 $('.chef-img').slick({
 	slidesToShow: 3,
 	slidesToScroll: 1,
-	autoplay: true,
+	autoplay: false,
   centerMode:true,
   centerPadding:"0",
 	dot: false,
@@ -63,7 +63,7 @@ $('.chef-text').slick({
 	asNavFor: '.chef-img',
 	dots: false,
 	arrows: false,
- autoplay:true,
+ autoplay:false,
  responsive: [
   {
     breakpoint: 576,
@@ -95,7 +95,7 @@ new WOW().init();
 $('.heda').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   arrows: true,
   autoplaySpeed: 2000,
   prevArrow: '.testobtn-1',
@@ -120,7 +120,7 @@ $('.heda').slick({
 $('.blog-slick').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   arrows: true,
   autoplaySpeed: 2000,
   prevArrow: '.blog-icon-1',
@@ -135,14 +135,28 @@ $('.blog-slick').slick({
       
       }
     },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+       
+      
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+       
+      
+      }
+    },
    
   ]
 
 });
-
-
-
-
 
 
 });
