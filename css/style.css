@@ -51,7 +51,7 @@ h1,h2,h3,h5,h6,a{
     color:#da7e29;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color:#da7e29;
+    color:#da7e29!important;
 }
 
 .fBtn {
