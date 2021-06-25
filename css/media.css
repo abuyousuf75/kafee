@@ -446,7 +446,8 @@
 }
 @media(max-width:575.98px){
    body{
-       overflow-x: clip;;
+       overflow-x: clip;
+       
    }
     .navbar-toggler:focus{
         box-shadow:none ;
